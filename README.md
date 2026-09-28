@@ -1,1 +1,1 @@
-# implementing-fine-grain-password-policy
+# implementing-fine-grained-password-policy
