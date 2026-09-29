@@ -81,4 +81,13 @@ This provides a more restrictive account lockout threshold for the targeted priv
 
 The policy will now apply specifically to members of the targeted group rather than applying the settings to every user in the domain.
 
-<img src="Screenshot 2026-09-27 101448.png" width="65%" height="65%">
+<img src="Screenshot 2026-09-27 101448.png" width="65%" height="65%">  
+
+## Results
+
+* Successfully created a Fine-Grained Password Policy named **Admin Password Policy** in Active Directory.
+* Configured the policy with a **15-character minimum password length** and **password history of 3 passwords**.
+* Configured an account lockout threshold of **3 failed login attempts**.
+* Set the policy precedence to **1**.
+* Applied the password policy to the **ADMINS** group.
+* This lab demonstrated how FGPP can be used to apply more restrictive security requirements to privileged accounts within an Active Directory environment.
