@@ -28,7 +28,11 @@ In this tutorial, we configure a Fine-Grained Password Policy (FGPP) in an Activ
   **System**
   → **Password Settings Container**
 
-The Password Settings Container contains the Fine-Grained Password Policies configured for the domain.
+The Password Settings Container contains the Fine-Grained Password Policies configured for the domain.  
+
+  <img src="Screenshot 2026-09-27 101314.png" width="40%" height="40%">  
+
+  <img src="Screenshot 2026-09-27 101336.png" width="65%" height="65%">
 
 ### 2. Create a Fine-Grained Password Policy
 
@@ -38,6 +42,8 @@ The Password Settings Container contains the Fine-Grained Password Policies conf
   **Password Settings**
 * Name the policy:
   **Admin Password Policy**
+
+    <img src="Screenshot 2026-09-27 101357.png" width="50%" height="50%">
 
 ### 3. Configure Password Requirements
 
@@ -59,7 +65,9 @@ The 15-character minimum password length requires members of the targeted group 
 * Set the number of failed login attempts to:
   **3**
 
-This provides a more restrictive account lockout threshold for the targeted privileged accounts.
+This provides a more restrictive account lockout threshold for the targeted privileged accounts.  
+
+<img src="Screenshot 2026-09-27 101424.png" width="65%" height="65%">
 
 ### 5. Apply the Policy to the Administrators Group
 
@@ -73,5 +81,4 @@ This provides a more restrictive account lockout threshold for the targeted priv
 
 The policy will now apply specifically to members of the targeted group rather than applying the settings to every user in the domain.
 
-Example Active Directory s
-
+<img src="Screenshot 2026-09-27 101448.png" width="65%" height="65%">
